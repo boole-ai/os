@@ -27,12 +27,14 @@ export function Navigation({ onOpenRfi }: NavigationProps) {
         >
           CONTACT SALES
         </button>
-        <button
-          onClick={onOpenRfi}
-          className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-5 py-2.5 font-[family-name:var(--font-mono)] font-medium text-[10px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors"
+        <a
+          href="https://buy.stripe.com/eVq6oHd3R7KJ1sgbOydUY01"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-5 py-2.5 font-[family-name:var(--font-mono)] font-medium text-[10px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors inline-block"
         >
-          REQUEST A DEMO
-        </button>
+          GET STARTED
+        </a>
       </div>
     </div>
   );

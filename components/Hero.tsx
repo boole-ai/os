@@ -60,17 +60,19 @@ export function Hero({ onOpenRfi }: HeroProps) {
           A complete intelligence layer for the OS you already ship. It installs above Android, Windows, or your own embedded stack, runs entirely on the device, and makes the hardware feel like nothing else on the shelf.
         </p>
         <div className="flex gap-3.5 items-center">
-          <button
-            onClick={onOpenRfi}
-            className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-9 py-[17px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors"
+          <a
+            href="https://buy.stripe.com/eVq6oHd3R7KJ1sgbOydUY01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-9 py-[17px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors inline-block"
           >
-            CONTACT SALES
-          </button>
+            GET STARTED
+          </a>
           <button
             onClick={onOpenRfi}
             className="cursor-pointer border border-[rgba(242,241,237,0.22)] rounded-md bg-transparent px-9 py-[17px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] text-[#F2F1ED] hover:bg-[rgba(242,241,237,0.05)] transition-colors"
           >
-            REQUEST A DEMO
+            CONTACT SALES
           </button>
         </div>
       </div>

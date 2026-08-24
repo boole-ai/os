@@ -39,12 +39,14 @@ export function FinalCTA({ onOpenRfi }: FinalCTAProps) {
           .
         </h2>
         <div className="flex gap-3.5 justify-center flex-wrap">
-          <button
-            onClick={onOpenRfi}
-            className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-10 py-[18px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors"
+          <a
+            href="https://buy.stripe.com/eVq6oHd3R7KJ1sgbOydUY01"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-10 py-[18px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors inline-block"
           >
-            BOOK A TECHNICAL REVIEW
-          </button>
+            GET STARTED
+          </a>
           <button
             onClick={onOpenRfi}
             className="cursor-pointer border border-[rgba(242,241,237,0.28)] rounded-md bg-transparent text-[#F2F1ED] px-10 py-[18px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] hover:bg-[rgba(242,241,237,0.05)] transition-colors"
