@@ -11,6 +11,7 @@ import { LicensingSection } from "@/components/LicensingSection";
 import { FinalCTA } from "@/components/FinalCTA";
 import { Footer } from "@/components/Footer";
 import { RFIModal } from "@/components/RFIModal";
+import { StructuredData } from "@/components/StructuredData";
 
 export default function Home() {
   const [rfiOpen, setRfiOpen] = useState(false);
