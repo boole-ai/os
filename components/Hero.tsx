@@ -64,9 +64,9 @@ export function Hero({ onOpenRfi }: HeroProps) {
             href="https://buy.stripe.com/eVq6oHd3R7KJ1sgbOydUY01"
             target="_blank"
             rel="noopener noreferrer"
-            className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-9 py-[17px] font-[family-name:var(--font-mono)] font-medium text-[11px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors inline-block"
+            className="cursor-pointer border-none rounded-md bg-[#2E5BFF] text-[#F2F1ED] px-12 py-[19px] font-[family-name:var(--font-mono)] font-medium text-[12px] tracking-[0.18em] hover:bg-[#4365FF] transition-colors inline-block shadow-[0_8px_28px_-8px_rgba(46,91,255,0.5)]"
           >
-            GET STARTED
+            GET STARTED →
           </a>
           <button
             onClick={onOpenRfi}
