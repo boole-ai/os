@@ -59,7 +59,7 @@ export function AppGenDemo() {
   const [progress, setProgress] = useState(0);
   const [paused, setPaused] = useState(false);
 
-  const timeoutRef = useRef<NodeJS.Timeout>();
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
   const currentVibe = VIBES[vibeIndex];
   const vhue = currentVibe.app.hue;
