@@ -38,7 +38,7 @@ export function Hero({ onOpenRfi }: HeroProps) {
   return (
     <div className="relative overflow-hidden border-b border-[rgba(242,241,237,0.09)]">
       <div className="relative max-w-[1280px] mx-auto px-16 py-[120px] pb-[108px]">
-        <h1 className="m-0 mb-10 max-w-[14ch] font-[family-name:var(--font-heading)] font-medium text-[112px] leading-[0.94] tracking-[-0.045em] text-[#F2F1ED]" style={{ textWrap: "pretty" } as any}>
+        <h1 className="m-0 mb-10 max-w-[14ch] font-[family-name:var(--font-heading)] font-medium text-[112px] leading-[0.94] tracking-[-0.045em] text-[#F2F1ED]" style={{ textWrap: "pretty" } as React.CSSProperties}>
           The hardware is yours.{" "}
           <span
             ref={gradientRef}
